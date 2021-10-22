@@ -2490,6 +2490,10 @@ h3 {
   background-image: url("../img/Home/Highlights/DSC_4664.jpg");
 }
 
+.breadcam_bg_8 {
+	background-image: url("../img/People/Senior/Mostafa/DSC_3304-Edit.jpg")
+}
+
 /* line 13, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_bradcam.scss */
 .bradcam_area {
   background-size: cover;
