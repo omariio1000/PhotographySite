@@ -2502,6 +2502,14 @@ h3 {
 	background-image: url("../img/Events/Palestine2021/DSC_1165.jpg")
 }
 
+.breadcam_bg_11 {
+	background-image: url("../img/Places/Egypt/DSC_4932.jpg")
+}
+
+.breadcam_bg_12 {
+	background-image: url("../img/Places/Maui/DSC_5145.jpg")
+}
+
 /* line 13, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_bradcam.scss */
 .bradcam_area {
   background-size: cover;
