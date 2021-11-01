@@ -1,6 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700&display=swap");
 /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_extend.scss */
+
+
+html {
+	overflow: scroll;
+	overflow-x: hidden;
+}
+::-webkit-scrollbar {
+	width: 0;  /* Remove scrollbar space */
+	background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
 .flex-center-start {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -326,6 +337,7 @@ h3 {
   line-height: 50px;
   border: 1px solid #787878;
   left: 150px;
+	
 }
 
 /* line 247, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
