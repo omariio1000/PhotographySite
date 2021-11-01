@@ -6,7 +6,6 @@
 html {
 	overflow: scroll;
 	overflow-x: hidden;
-	background: image(url("../img/Home/Highlights/DSC_5287-Edit.jpg"))
 }
 ::-webkit-scrollbar {
 	width: 0;  /* Remove scrollbar space */
