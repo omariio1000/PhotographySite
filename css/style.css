@@ -1887,11 +1887,11 @@ h3 {
   left: 0;
   top: 0;
   /* Permalink - use to edit and share this gradient: https://colcolorzilla.com/gradient-editor/#000000+0,000000+100&0.08+0,1+100 */
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.08) 0%, black 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05 ) 0%, rgba(0,0,0,0.5));
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.08) 0%, black 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05 ) 0%, rgba(0,0,0,0.5));
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.08) 0%, black 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05 ) 0%, rgba(0,0,0,0.5));
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14000000', endColorstr='#000000',GradientType=0 );
   /* IE6-9 */
@@ -1916,6 +1916,16 @@ h3 {
   vertical-align: bottom;
   padding-bottom: 48px;
   padding-left: 48px;
+	
+}
+
+@media (max-width: 767px) {
+	.gallery_area .single_photography .hover .hover_inner{
+		display: table-cell;
+  		vertical-align: bottom;
+  		padding-bottom: 10px;
+  		padding-left: 10px;
+	}
 }
 
 /* line 51, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_gallery.scss */
