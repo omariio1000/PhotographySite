@@ -1946,10 +1946,10 @@ h3 {
 
 /* line 72, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_gallery.scss */
 .gallery_area .single_photography:hover .thumb img {
-  -webkit-transform: scale(1.2);
+  /* -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  transform: scale(1.2); */
 }
 
 /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_tesmonial.scss */
