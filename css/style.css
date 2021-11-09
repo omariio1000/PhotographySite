@@ -1919,15 +1919,6 @@ h3 {
 	
 }
 
-@media (max-width: 767px) {
-	.gallery_area .single_photography .hover .hover_inner{
-		display: table-cell;
-  		vertical-align: bottom;
-  		padding-bottom: 10px;
-  		padding-left: 10px;
-	}
-}
-
 /* line 51, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_gallery.scss */
 .gallery_area .single_photography .hover .hover_inner h3 {
   color: #FFFFFF;
