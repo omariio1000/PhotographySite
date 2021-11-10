@@ -346,6 +346,7 @@ h3 {
   right: 150px;
 }
 
+
 /* line 252, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
 .owl-carousel .owl-nav div.owl-next i {
   position: relative;
@@ -358,6 +359,16 @@ h3 {
   top: 0px;
 }
 
+@media (max-width: 767px) {
+	.owl-carousel .owl-nav div {
+		left: 25px;	
+	}
+	.owl-carousel .owl-nav div.owl-next {
+		left: auto;
+		right: 25px;
+	}
+}
+
 /* line 269, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
 .owl-carousel:hover .owl-nav div {
   opacity: 1;
@@ -367,7 +378,7 @@ h3 {
 /* line 272, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
 .owl-carousel:hover .owl-nav div:hover {
   color: #fff;
-  background: #5DB2FF;
+  background: rgba(0,0,0,0.25);
   border: 1px solid transparent;
 }
 
