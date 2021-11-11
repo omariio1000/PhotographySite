@@ -281,12 +281,12 @@ h3 {
   font-size: 15px;
   line-height: 50px;
   border: 1px solid #787878;
-  left: 150px;
+  left: 75px;
 }
 /* line 247, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
 .owl-carousel .owl-nav div.owl-next {
   left: auto;
-  right: 150px;
+  right: 75px;
 }
 /* line 252, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
 .owl-carousel .owl-nav div.owl-next i {
