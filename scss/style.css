@@ -1543,10 +1543,42 @@ h3 {
   background-image: url("../img/Events/Palestine2021/DSC_1165.jpg"); }
 
 .breadcam_bg_11 {
-  background-image: url("../img/Places/Egypt/DSC_4932.jpg"); }
+  background-image: url("../img/Places/Egypt21/DSC_4932.jpg"); }
 
 .breadcam_bg_12 {
-  background-image: url("../img/Places/Maui/DSC_5145.jpg"); }
+  background-image: url("../img/Places/Maui21/DSC_5145.jpg"); }
+
+.breadcam_bg_12 {
+  background-image: url("../img/Places/Maui/DSC_5145.jpg")
+}
+
+.breadcam_bg_13 {
+  background-image: url("../img/People/Grad22/DSC_3576.jpg")
+}
+
+.breadcam_bg_14 {
+  background-image: url("../img/Places/Egypt22/DSC_8664.jpg")
+}
+
+.breadcam_bg_15 {
+  background-image: url("../img/Events/Silah2022/DSC_7113.jpg")
+}
+
+.breadcam_bg_16 {
+  background-image: url("../img/Events/Eid22/DSC_3021.jpg")
+}
+
+.breadcam_bg_17 {
+  background-image: url("../img/Sports/Track/DSC_0125.jpg")
+}
+
+.breadcam_bg_18 {
+  background-image: url("../img/Other/Astro/DSC_0014.jpg")
+}
+
+.breadcam_bg_19 {
+  background-image: url("../img/Other/Cars/DSC_0763.jpg")
+}
 
 .bradcam_area {
   background-size: cover;
