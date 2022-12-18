@@ -1666,7 +1666,7 @@ h3 {
   transition: 0.5s;
   opacity: 0;
   visibility: hidden;
-  vertical-align: bottom;
+  vertical-align: top;
 }
 
 /* line 46, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_gallery.scss */
