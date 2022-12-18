@@ -1639,8 +1639,6 @@ h3 {
 /* line 28, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_gallery.scss */
 .gallery_area .single_photography .hover {
   position: absolute;
-  width: 100%;
-  height: 100%;
   left: 0;
   bottom: 0;
   /* Permalink - use to edit and share this gradient: https://colcolorzilla.com/gradient-editor/#000000+0,000000+100&0.08+0,1+100 */
@@ -1668,18 +1666,6 @@ h3 {
   opacity: 0;
   visibility: hidden;
   vertical-align: bottom;
-}
-
-@media not all and (min-resolution:.001dpcm) { 
-  @supports (-webkit-appearance:none) and (stroke-color:transparent) {
-    .gallery_area .single_photography .hover { 
-      -webkit-transform: -webkit-translateY(0%);
-      -moz-transform: -moz-translateY(0%);
-      -ms-transform: -ms-translateY(0%);
-      -o-transform: -o-translateY(0%);
-      transform: translateY(0%);
-    }
-  }
 }
 
 /* line 46, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_gallery.scss */
@@ -1715,15 +1701,6 @@ h3 {
   opacity: 1;
   visibility: visible;
   vertical-align: bottom;
-}
-
-@media not all and (min-resolution:.001dpcm) { 
-  @supports (-webkit-appearance:none) and (stroke-color:transparent) {
-    .gallery_area .single_photography:hover .hover { 
-      transform: translateY(100%);
-      visibility: hidden;
-    }
-  }
 }
 
 /* line 72, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_gallery.scss */
