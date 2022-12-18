@@ -1718,6 +1718,7 @@ h3 {
   @supports (-webkit-appearance:none) and (stroke-color:transparent) {
     .gallery_area .single_photography:hover .hover { 
       transform: translateY(100%);
+      visibility: hiddin;
     }
   }
 }
