@@ -1671,13 +1671,17 @@ h3 {
   vertical-align: bottom;
 }
 
-/* @media not all and (min-resolution:.001dpcm) { 
+@media not all and (min-resolution:.001dpcm) { 
   @supports (-webkit-appearance:none) and (stroke-color:transparent) {
     .gallery_area .single_photography .hover { 
+      -webkit-transform: -webkit-translateY(0%);
+      -moz-transform: -moz-translateY(0%);
+      -ms-transform: -ms-translateY(0%);
+      -o-transform: -o-translateY(0%);
       transform: translateY(0%);
     }
   }
-} */
+}
 
 /* line 46, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_gallery.scss */
 .gallery_area .single_photography .hover .hover_inner {
