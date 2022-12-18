@@ -1162,7 +1162,8 @@ h3 {
       -o-transition: 0.5s;
       transition: 0.5s;
       opacity: 0;
-      visibility: hidden; }
+      visibility: hidden;
+      vertical-align: bottom; }
       .gallery_area .single_photography .hover .hover_inner {
         display: table-cell;
         vertical-align: bottom;
@@ -1172,19 +1173,22 @@ h3 {
           color: #FFFFFF;
           font-weight: 300;
           font-size: 24px;
-          margin-bottom: 4px; }
+          margin-bottom: 4px;
+          vertical-align: bottom; }
         .gallery_area .single_photography .hover .hover_inner span {
           font-weight: 300;
           font-size: 13px;
           font-style: italic;
-          color: #D5D5D5; }
+          color: #D5D5D5; 
+          vertical-align: bottom;}
     .gallery_area .single_photography:hover .hover {
       -webkit-transform: translateY(0%);
       -moz-transform: translateY(0%);
       -ms-transform: translateY(0%);
       transform: translateY(0%);
       opacity: 1;
-      visibility: visible; }
+      visibility: visible; 
+      vertical-align: bottom;}
     .gallery_area .single_photography:hover .thumb img {
       -webkit-transform: scale(1.2);
       -moz-transform: scale(1.2);
