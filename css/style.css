@@ -1700,7 +1700,7 @@ h3 {
   transform: translateY(0%);
   opacity: 1;
   visibility: visible;
-  vertical-align: ;
+  vertical-align: bottom;
 }
 /* line 72, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_gallery.scss */
 .gallery_area .single_photography:hover .thumb img {
