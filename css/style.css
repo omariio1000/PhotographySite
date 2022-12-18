@@ -1660,6 +1660,7 @@ h3 {
   -webkit-transform: translateY(50%);
   -moz-transform: translateY(50%);
   -ms-transform: translateY(50%);
+  -o-transform: translateY(50%);
   transform: translateY(50%);
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -1697,7 +1698,8 @@ h3 {
   -webkit-transform: translateY(0%);
   -moz-transform: translateY(0%);
   -ms-transform: translateY(0%);
-  transform: translateY(0px);
+  -o-transform: translateY(0%);
+  transform: translateY(0%);
   opacity: 1;
   visibility: visible;
   vertical-align: bottom;
