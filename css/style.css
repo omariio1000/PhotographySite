@@ -1704,6 +1704,14 @@ h3 {
   visibility: visible;
   vertical-align: bottom;
 }
+
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+  .gallery_area .single_photography:hover .hover { 
+    transform: translateY(50%);
+}
+}}
+
 /* line 72, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_gallery.scss */
 .gallery_area .single_photography:hover .thumb img {
   /* -webkit-transform: scale(1.2);
