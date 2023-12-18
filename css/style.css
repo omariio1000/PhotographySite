@@ -2234,6 +2234,10 @@ h3 {
   background-image: url("../img/Other/Cars/DSC_0763.jpg")
 }
 
+.breadcam_bg_20 {
+  background-image: url("../img/Places/Egypt23/cover.jpg")
+}
+
 /* line 13, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_bradcam.scss */
 .bradcam_area {
   background-size: cover;
