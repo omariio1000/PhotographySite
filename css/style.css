@@ -2219,7 +2219,7 @@ h3 {
 }
 
 .breadcam_bg_16 {
-  background-image: url("")
+  background-image: url("../img/Events/Grand23/cover.jpg")
 }
 
 .breadcam_bg_17 {
@@ -2244,6 +2244,14 @@ h3 {
 
 .breadcam_bg_22 {
   background-image: url("../img/People/Yousif/cover.jpg")
+}
+
+.breadcam_bg_23 {
+  background-image: url("../img/Events/Quran23/cover.jpg")
+}
+
+.breadcam_bg_24 {
+  background-image: url("../img/Events/Palestine23/cover.jpg")
 }
 
 
