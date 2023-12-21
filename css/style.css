@@ -2219,7 +2219,7 @@ h3 {
 }
 
 .breadcam_bg_16 {
-  background-image: url("../img/Events/Eid22/DSC_3021.jpg")
+  background-image: url("")
 }
 
 .breadcam_bg_17 {
@@ -2241,6 +2241,12 @@ h3 {
 .breadcam_bg_21 {
   background-image: url("../img/Places/Indonesia/cover.jpg")
 }
+
+.breadcam_bg_22 {
+  background-image: url("../img/People/Yousif/cover.jpg")
+}
+
+
 
 /* line 13, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_bradcam.scss */
 .bradcam_area {
