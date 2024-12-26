@@ -41,14 +41,17 @@ body {
   transition: 0.3s;
 }
 /* line 16, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
-a, .button {
+a,
+.button {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
 /* line 20, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
-a:focus, .button:focus, button:focus {
+a:focus,
+.button:focus,
+button:focus {
   text-decoration: none;
   outline: none;
 }
@@ -57,21 +60,34 @@ a:focus {
   text-decoration: none;
 }
 /* line 28, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
-a:focus, a:hover, .portfolio-cat a:hover, .footer -menu li a:hover {
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
   text-decoration: none;
 }
 /* line 34, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
-a, button {
-  color: #1F1F1F;
+a,
+button {
+  color: #1f1f1f;
   outline: medium none;
 }
 /* line 39, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "Poppins", sans-serif;
-  color: #1F1F1F;
+  color: #1f1f1f;
 }
 /* line 43, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
   color: inherit;
 }
 /* line 52, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
@@ -88,7 +104,7 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
-  color: #4D4D4D;
+  color: #4d4d4d;
   margin-bottom: 13px;
   font-family: "Poppins", sans-serif;
 }
@@ -105,12 +121,14 @@ label {
   color: #fff;
   text-shadow: none;
 }
-/* line 79, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */ ::-moz-selection {
+/* line 79, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
+::-moz-selection {
   background: #444;
   color: #fff;
   text-shadow: none;
 }
-/* line 84, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */ ::selection {
+/* line 84, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
+::selection {
   background: #444;
   color: #fff;
   text-shadow: none;
@@ -186,7 +204,7 @@ h3 {
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: .5;
+  opacity: 0.5;
 }
 /* line 157, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
 .black_overlay {
@@ -197,7 +215,7 @@ h3 {
 .black_overlay::before {
   position: absolute;
   content: "";
-  background-color: #2C2C2C;
+  background-color: #2c2c2c;
   top: 0;
   left: 0;
   width: 100%;
@@ -217,9 +235,9 @@ h3 {
   height: 100%;
   left: 0;
   top: 0;
-  background: #2C2C2C;
-  opacity: .6;
-  content: '';
+  background: #2c2c2c;
+  opacity: 0.6;
+  content: "";
   z-index: -1;
 }
 /* line 190, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
@@ -232,11 +250,29 @@ h3 {
   position: absolute;
   content: "";
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5db2ff+0,7db9e8+100&1+24,0+96 */
-  background: -moz-linear-gradient(left, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: -moz-linear-gradient(
+    left,
+    #5db2ff 0%,
+    #65b4f9 24%,
+    rgba(124, 185, 233, 0) 96%,
+    rgba(125, 185, 232, 0) 100%
+  );
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #5db2ff 0%,
+    #65b4f9 24%,
+    rgba(124, 185, 233, 0) 96%,
+    rgba(125, 185, 232, 0) 100%
+  );
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: linear-gradient(
+    to right,
+    #5db2ff 0%,
+    #65b4f9 24%,
+    rgba(124, 185, 233, 0) 96%,
+    rgba(125, 185, 232, 0) 100%
+  );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5db2ff', endColorstr='#007db9e8', GradientType=1);
   /* IE6-9 */
@@ -344,18 +380,18 @@ h3 {
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #48B6FB;
+  border: 1px solid #48b6fb;
   letter-spacing: 3px;
   text-align: center;
-  color: #48B6FB !important;
+  color: #48b6fb !important;
   text-transform: uppercase;
   cursor: pointer;
 }
 /* line 17, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .boxed-btn:hover {
-  background: #48B6FB;
+  background: #48b6fb;
   color: #fff !important;
-  border: 1px solid #48B6FB;
+  border: 1px solid #48b6fb;
 }
 /* line 22, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .boxed-btn:focus {
@@ -368,7 +404,7 @@ h3 {
 /* line 29, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .boxed-btn3 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-  background: rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.1);
   color: #fff;
   display: inline-block;
   padding: 13px 28px;
@@ -387,7 +423,7 @@ h3 {
   -o-transition: 0.5s;
   transition: 0.5s;
   cursor: pointer;
-  background: rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.1);
 }
 /* line 48, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .boxed-btn3:hover {
@@ -401,7 +437,7 @@ h3 {
 /* line 58, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .boxed-btn4 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-  background: #0181F5;
+  background: #0181f5;
   color: #fff;
   display: inline-block;
   padding: 14px 27px;
@@ -424,7 +460,7 @@ h3 {
 }
 /* line 77, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .boxed-btn4:hover {
-  background: #0181F5;
+  background: #0181f5;
   color: #fff !important;
 }
 /* line 82, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
@@ -460,7 +496,7 @@ h3 {
 }
 /* line 107, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .boxed-btn3-white:hover {
-  background: #28AE61;
+  background: #28ae61;
   color: #fff !important;
   border: 1px solid transparent;
 }
@@ -478,14 +514,14 @@ h3 {
 }
 /* line 123, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .boxed-btn3-green-2 {
-  color: #48B6FB !important;
+  color: #48b6fb !important;
   display: inline-block;
   padding: 14px 31px;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #48B6FB;
+  border: 1px solid #48b6fb;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -500,7 +536,7 @@ h3 {
 }
 /* line 139, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .boxed-btn3-green-2:hover {
-  background: #48B6FB;
+  background: #48b6fb;
   color: #fff !important;
   border: 1px solid transparent;
 }
@@ -557,18 +593,18 @@ h3 {
 }
 /* line 188, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .line-button:hover {
-  color: #009DFF;
+  color: #009dff;
 }
 /* line 191, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .line-button:hover::before {
-  background: #009DFF;
+  background: #009dff;
 }
 /* line 195, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .prising_btn {
   display: inline-block;
   font-size: 14px;
-  color: #5DB2FF;
-  border: 1px solid #5DB2FF;
+  color: #5db2ff;
+  border: 1px solid #5db2ff;
   text-transform: capitalize;
   padding: 8px 28px;
   font-weight: 500;
@@ -578,7 +614,7 @@ h3 {
 }
 /* line 204, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .prising_btn:hover {
-  background: #5DB2FF;
+  background: #5db2ff;
   color: #fff;
 }
 /* line 210, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
@@ -606,7 +642,7 @@ h3 {
 }
 /* line 228, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .black_btn:hover {
-  background: #4BA8FD;
+  background: #4ba8fd;
   color: #fff !important;
 }
 /* line 233, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
@@ -618,7 +654,7 @@ h3 {
   font-size: 42px;
   line-height: 54px;
   font-weight: 300;
-  color: #2C2C2C;
+  color: #2c2c2c;
   position: relative;
   z-index: 0;
   padding-bottom: 0;
@@ -697,11 +733,11 @@ h3 {
 /* line 28, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #5DB2FF;
+  color: #5db2ff;
 }
 /* line 32, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a.active {
-  color: #5DB2FF;
+  color: #5db2ff;
 }
 @media (max-width: 767px) {
   /* line 35, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slick-nav.scss */
@@ -797,14 +833,14 @@ h3 {
   /* line 16, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 10px 0px;
-    background: #2C2C2C;
+    background: #2c2c2c;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 16, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 10px 15px;
-    background: #2C2C2C;
+    background: #2c2c2c;
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -911,7 +947,6 @@ h3 {
     font-size: 15px;
     margin: 0 -5px;
   }
-  
 }
 
 @media (min-width: 1200px) and (max-width: 1250px) {
@@ -1066,7 +1101,7 @@ h3 {
 }
 /* line 264, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
 .header-area .header-top_area .social_media_links a:hover {
-  color: #28AE60;
+  color: #28ae60;
 }
 /* line 269, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
 .header-area .header-top_area .short_contact_list {
@@ -1097,12 +1132,12 @@ h3 {
 }
 /* line 286, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
 .header-area .header-top_area .short_contact_list ul li a i {
-  color: #28AE60;
+  color: #28ae60;
   margin-right: 7px;
 }
 /* line 296, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
 .header_bottom_border {
-  border-bottom: 1px solid #4B4E50;
+  border-bottom: 1px solid #4b4e50;
   padding-bottom: 22px;
 }
 /* line 299, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
@@ -1132,7 +1167,7 @@ h3 {
 }
 /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url("../img/Home/Slider/People.jpg")
+  background-image: url("../img/Home/Slider/People.jpg");
 }
 /* line 4, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
 .slider_bg_2 {
@@ -1203,7 +1238,7 @@ h3 {
 }
 /* line 41, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
-  color: #FFF;
+  color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 50px;
   text-transform: capitalize;
@@ -1259,7 +1294,7 @@ h3 {
 .slider_area .single_slider .slider_text p {
   font-size: 20px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 48px;
   margin-top: 16px;
 }
@@ -1332,7 +1367,7 @@ h3 {
   font-size: 46px;
   line-height: 60px;
   font-weight: 300;
-  color: #2C2C2C;
+  color: #2c2c2c;
 }
 @media (max-width: 767px) {
   /* line 36, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
@@ -1412,7 +1447,7 @@ h3 {
   font-size: 46px;
   line-height: 60px;
   font-weight: 300;
-  color: #2C2C2C;
+  color: #2c2c2c;
 }
 @media (max-width: 767px) {
   /* line 93, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
@@ -1495,7 +1530,7 @@ h3 {
   background-image: url(../img/ilstrator_img/check.svg);
   width: 16px;
   height: 16px;
-  content: '';
+  content: "";
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -1524,7 +1559,7 @@ h3 {
 .productivity_area h3 {
   font-size: 46px;
   font-weight: 300;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 60px;
 }
 @media (max-width: 767px) {
@@ -1570,7 +1605,7 @@ h3 {
 }
 /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_counter.scss */
 .counter_area {
-  background: #F5FBFF;
+  background: #f5fbff;
   padding: 100px 0 70px 0;
 }
 /* line 4, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_counter.scss */
@@ -1584,7 +1619,7 @@ h3 {
 /* line 8, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_counter.scss */
 .counter_area .single_counter h3 span {
   font-size: 50px;
-  color: #2C2C2C;
+  color: #2c2c2c;
   font-weight: 400;
 }
 /* line 14, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_counter.scss */
@@ -1643,15 +1678,27 @@ h3 {
   height: 100%;
   left: 0;
   bottom: 0;
-  
+
   /* Permalink - use to edit and share this gradient: https://colcolorzilla.com/gradient-editor/#000000+0,000000+100&0.08+0,1+100 */
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.5));
+  background: -moz-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.05) 0%,
+    rgba(0, 0, 0, 0.5)
+  );
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.05) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.05) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  
+
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#14000000', endColorstr='#000000', GradientType=0);
   /* IE6-9 */
   display: table;
@@ -1678,7 +1725,7 @@ h3 {
 }
 /* line 51, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_gallery.scss */
 .gallery_area .single_photography .hover .hover_inner h3 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 300;
   font-size: 24px;
   margin-bottom: 4px;
@@ -1689,7 +1736,7 @@ h3 {
   font-weight: 300;
   font-size: 13px;
   font-style: italic;
-  color: #D5D5D5;
+  color: #d5d5d5;
   vertical-align: bottom;
 }
 /* line 66, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_gallery.scss */
@@ -1714,7 +1761,7 @@ h3 {
 /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_tesmonial.scss */
 .testimonial_area {
   padding: 100px 0;
-  background: #F5FBFF;
+  background: #f5fbff;
 }
 /* line 4, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_tesmonial.scss */
 .testimonial_area .single_testmonial {
@@ -1724,7 +1771,7 @@ h3 {
 .testimonial_area .single_testmonial h3 {
   font-size: 42px;
   font-weight: 300;
-  color: #2C2C2C;
+  color: #2c2c2c;
 }
 @media (max-width: 767px) {
   /* line 6, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_tesmonial.scss */
@@ -1736,7 +1783,7 @@ h3 {
 .testimonial_area .single_testmonial p {
   font-size: 24px;
   font-weight: 400;
-  color: #2C2C2C;
+  color: #2c2c2c;
   line-height: 36px;
   text-decoration: underline;
   margin-top: 53px;
@@ -1781,7 +1828,7 @@ h3 {
 .testimonial_area .owl-dots .owl-dot {
   width: 9px;
   height: 9px;
-  background: #D5D5D5;
+  background: #d5d5d5;
   display: inline-block;
   margin: 0 4px;
   -webkit-border-radius: 50%;
@@ -1790,7 +1837,7 @@ h3 {
 }
 /* line 56, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_tesmonial.scss */
 .testimonial_area .owl-dots .owl-dot.active {
-  background: #5DB2FF;
+  background: #5db2ff;
 }
 /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_instagram.scss */
 .instragram_area {
@@ -1823,10 +1870,10 @@ h3 {
   -moz-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 /* line 32, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_instagram.scss */
 .instragram_area .single_instagram .ovrelay {
@@ -1840,10 +1887,10 @@ h3 {
   -moz-transform: translateX(-80%);
   -ms-transform: translateX(-80%);
   transform: translateX(-80%);
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
   opacity: 0;
   visibility: hidden;
 }
@@ -1885,7 +1932,7 @@ h3 {
 }
 /* line 4, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_team.scss */
 .team_area .border_bottom {
-  border-bottom: 1px solid #E8E8E8;
+  border-bottom: 1px solid #e8e8e8;
 }
 /* line 6, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_team.scss */
 .team_area .border_bottom .single_team {
@@ -1912,14 +1959,14 @@ h3 {
 .team_area .border_bottom .single_team .team_info h3 {
   font-size: 24px;
   font-weight: 300;
-  color: #2C2C2C;
+  color: #2c2c2c;
   margin-bottom: 0;
 }
 /* line 24, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_team.scss */
 .team_area .border_bottom .single_team .team_info p {
   font-size: 13px;
   font-weight: 300;
-  color: #2C2C2C;
+  color: #2c2c2c;
   margin-top: 6px;
   margin-bottom: 8px;
 }
@@ -1930,12 +1977,12 @@ h3 {
 /* line 34, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_team.scss */
 .team_area .border_bottom .single_team .team_info .social_link li a {
   font-size: 15px;
-  color: #C7C7C7;
+  color: #c7c7c7;
   margin: 0 5px;
 }
 /* line 38, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_team.scss */
 .team_area .border_bottom .single_team .team_info .social_link li a:hover {
-  color: #5DB2FF;
+  color: #5db2ff;
 }
 /* line 47, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_team.scss */
 .team_area .border_bottom .single_team:hover .team_thumb img {
@@ -1960,7 +2007,7 @@ h3 {
 .footer .footer_top {
   padding-top: 117px;
   padding-bottom: 205px;
-  background: #1F1F1F;
+  background: #1f1f1f;
 }
 @media (max-width: 767px) {
   /* line 6, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
@@ -2018,35 +2065,35 @@ h3 {
 }
 /* line 45, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p {
-  color: #C7C7C7;
+  color: #c7c7c7;
 }
 /* line 48, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text {
   font-size: 16px;
-  color: #B2B2B2;
+  color: #b2b2b2;
   margin-bottom: 23px;
   font-weight: 400;
   line-height: 28px;
 }
 /* line 54, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text a.domain {
-  color: #B2B2B2;
+  color: #b2b2b2;
   font-weight: 400;
 }
 /* line 57, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text a.domain:hover {
-  color: #5DB2FF;
-  border-bottom: 1px solid #5DB2FF;
+  color: #5db2ff;
+  border-bottom: 1px solid #5db2ff;
 }
 /* line 63, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text.doanar a {
   font-weight: 500;
-  color: #B2B2B2;
+  color: #b2b2b2;
 }
 /* line 67, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text.doanar a:hover {
-  color: #5DB2FF;
-  border-bottom: 1px solid #5DB2FF;
+  color: #5db2ff;
+  border-bottom: 1px solid #5db2ff;
 }
 /* line 71, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text.doanar a.first {
@@ -2054,17 +2101,17 @@ h3 {
 }
 /* line 79, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li {
-  color: #C7C7C7;
+  color: #c7c7c7;
   font-size: 13px;
   line-height: 42px;
 }
 /* line 83, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a {
-  color: #C7C7C7;
+  color: #c7c7c7;
 }
 /* line 85, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a:hover {
-  color: #5DB2FF;
+  color: #5db2ff;
 }
 /* line 91, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .newsletter_form {
@@ -2095,7 +2142,7 @@ h3 {
   border: none;
   font-size: 14px;
   color: #fff;
-  background: #5DB2FF;
+  background: #5db2ff;
   padding: 10px;
   padding: 0 22px;
   cursor: pointer;
@@ -2103,7 +2150,7 @@ h3 {
 /* line 121, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .newsletter_text {
   font-size: 16px;
-  color: #BABABA;
+  color: #bababa;
 }
 /* line 127, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .copy-right_text {
@@ -2113,7 +2160,7 @@ h3 {
 /* line 130, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right {
   font-size: 16px;
-  color: #C7C7C7;
+  color: #c7c7c7;
   margin-bottom: 0;
   font-weight: 400;
 }
@@ -2126,7 +2173,7 @@ h3 {
 }
 /* line 140, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right a {
-  color: #5DB2FF;
+  color: #5db2ff;
 }
 /* line 145, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .socail_links {
@@ -2151,19 +2198,19 @@ h3 {
   height: 40px;
   display: inline-block;
   text-align: center;
-  background: #1A1A1A;
+  background: #1a1a1a;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
   line-height: 40px !important;
   margin-left: 10px;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 41px !important;
 }
 /* line 169, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .socail_links ul li a:hover {
   color: #fff !important;
-  background: #6EBFF9;
+  background: #6ebff9;
 }
 /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
@@ -2191,75 +2238,75 @@ h3 {
   background-image: url("../img/Home/Highlights/DSC_4664.jpg");
 }
 .bradcam_bg_8 {
-  background-image: url("../img/People/Senior/Mostafa/DSC_3304-Edit.jpg")
+  background-image: url("../img/People/Senior/Mostafa/DSC_3304-Edit.jpg");
 }
 .bradcam_bg_9 {
-  background-image: url("../img/Events/BLM2020/DSC_5010.jpg")
+  background-image: url("../img/Events/BLM2020/DSC_5010.jpg");
 }
 .bradcam_bg_10 {
-  background-image: url("../img/Events/Palestine2021/DSC_1165.jpg")
+  background-image: url("../img/Events/Palestine2021/DSC_1165.jpg");
 }
 .bradcam_bg_11 {
-  background-image: url("../img/Places/Egypt21/DSC_4932.jpg")
+  background-image: url("../img/Places/Egypt21/DSC_4932.jpg");
 }
 .bradcam_bg_12 {
-  background-image: url("../img/Places/Maui21/DSC_5145.jpg")
+  background-image: url("../img/Places/Maui21/DSC_5145.jpg");
 }
 
 .bradcam_bg_13 {
-  background-image: url("../img/People/Grad22/DSC_3576.jpg")
+  background-image: url("../img/People/Grad/DSC_3576.jpg");
 }
 
 .bradcam_bg_14 {
-  background-image: url("../img/Places/Egypt22/DSC_8664.jpg")
+  background-image: url("../img/Places/Egypt22/DSC_8664.jpg");
 }
 
 .bradcam_bg_15 {
-  background-image: url("../img/Events/Silah2022/DSC_7113.jpg")
+  background-image: url("../img/Events/Silah2022/DSC_7113.jpg");
 }
 
 .bradcam_bg_16 {
-  background-image: url("../img/Events/Grand23/cover.jpg")
+  background-image: url("../img/Events/Grand23/cover.jpg");
 }
 
 .bradcam_bg_17 {
-  background-image: url("../img/Sports/Track/DSC_0125.jpg")
+  background-image: url("../img/Sports/Track/DSC_0125.jpg");
 }
 
 .bradcam_bg_18 {
-  background-image: url("../img/Other/Astro/DSC_0014.jpg")
+  background-image: url("../img/Other/Astro/DSC_0014.jpg");
 }
 
 .bradcam_bg_19 {
-  background-image: url("../img/Other/Cars/DSC_0763.jpg")
+  background-image: url("../img/Other/Cars/DSC_0763.jpg");
 }
 
 .bradcam_bg_20 {
-  background-image: url("../img/Places/Egypt23/cover.jpg")
+  background-image: url("../img/Places/Egypt23/cover.jpg");
 }
 
 .bradcam_bg_21 {
-  background-image: url("../img/Places/Indonesia/cover.jpg")
+  background-image: url("../img/Places/Indonesia/cover.jpg");
 }
 
-.bradcam_bg_22 {
+/* .bradcam_bg_22 {
   background-image: url("../img/People/Yousif/cover.jpg")
-}
+} */
 
 .bradcam_bg_23 {
-  background-image: url("../img/Events/Quran23/cover.jpg")
+  background-image: url("../img/Events/Quran23/cover.jpg");
 }
 
 .bradcam_bg_24 {
-  background-image: url("../img/Events/Palestine23/cover.jpg")
+  background-image: url("../img/Events/Palestine23/cover.jpg");
 }
 
 .bradcam_bg_25 {
-  background-image: url("../img/Events/Silah23/cover.jpg")
+  background-image: url("../img/Events/Silah23/cover.jpg");
 }
 
 .bradcam_bg_26 {
-  background-image: url("../img/Sports/CoolSoccer23/cover.jpg")
+  background-image: url("../img/Sports/CoolSoccer23/cover.jpg");
 }
 
 /* line 13, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_bradcam.scss */
@@ -2320,7 +2367,7 @@ h3 {
 }
 /* line 70, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_bradcam.scss */
 .popup_box .popup_header {
-  background: #F5FBFF;
+  background: #f5fbff;
   padding: 28px 0;
   display: block;
 }
@@ -2328,7 +2375,7 @@ h3 {
 .popup_box .popup_header h3 {
   text-align: center;
   font-size: 20px;
-  color: #2C2C2C;
+  color: #2c2c2c;
   margin-bottom: 0;
   font-weight: 400;
 }
@@ -2341,7 +2388,7 @@ h3 {
   width: 100%;
   height: 50px;
   border: none;
-  border-bottom: 1px solid #C7C7C7;
+  border-bottom: 1px solid #c7c7c7;
   padding: 15px 0;
   margin-bottom: 20px;
 }
@@ -2359,7 +2406,7 @@ h3 {
   width: 100%;
   border: none;
   margin-top: 112px;
-  border-bottom: 1px solid #C7C7C7;
+  border-bottom: 1px solid #c7c7c7;
   padding: 15px 0;
   margin-bottom: 20px;
   height: 55px;
@@ -2380,7 +2427,7 @@ h3 {
   -webkit-tap-highlight-color: transparent;
   background-color: #fff;
   /* border-radius: 5px; */
-  border: solid 1px #E2E2E2;
+  border: solid 1px #e2e2e2;
   box-sizing: border-box;
   clear: both;
   cursor: pointer;
@@ -2474,7 +2521,7 @@ h3 {
   overflow: hidden;
   position: fixed;
   background: #000000;
-  opacity: .7;
+  opacity: 0.7;
 }
 /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
 .photography_skill_area {
@@ -2504,7 +2551,7 @@ h3 {
 }
 /* line 28, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
 .wild_photography {
-  background: #F5FBFF;
+  background: #f5fbff;
 }
 /* line 31, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
 .wild_photography .wildlife_photo img {
@@ -2612,7 +2659,7 @@ h3 {
   padding-bottom: 60px;
   padding-top: 60px;
   margin-bottom: 100px;
-  border-bottom: 1px solid #F5F5F5;
+  border-bottom: 1px solid #f5f5f5;
 }
 @media (max-width: 767px) {
   /* line 119, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
@@ -2631,7 +2678,7 @@ h3 {
 .next_prev_post .post_lisk p {
   font-size: 20px;
   font-weight: 500;
-  color: #2C2C2C;
+  color: #2c2c2c;
   margin-bottom: 0;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2661,7 +2708,7 @@ h3 {
   font-weight: 400;
   display: inline-block;
   color: #fff;
-  background: #3B5997;
+  background: #3b5997;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -2690,11 +2737,11 @@ h3 {
 }
 /* line 170, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
 .next_prev_post .socical_button ul li:nth-child(2) a {
-  background: #1DA1F2;
+  background: #1da1f2;
 }
 /* line 173, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
 .next_prev_post .socical_button ul li:nth-child(3) a {
-  background: #B21D23;
+  background: #b21d23;
 }
 /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_contact_info.scss */
 .contact_info_area {
@@ -2758,19 +2805,19 @@ h3 {
   height: 40px;
   display: inline-block;
   text-align: center;
-  background: #C7C7C7;
+  background: #c7c7c7;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
   line-height: 40px !important;
   margin-right: 5px;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 41px !important;
 }
 /* line 55, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_contact_info.scss */
 .contact_info_area .cotact_info .address_info .socail_links ul li a:hover {
   color: #fff !important;
-  background: #6EBFF9;
+  background: #6ebff9;
 }
 /*=================== contact banner start ====================*/
 /* line 3, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_contact.scss */
@@ -2790,7 +2837,8 @@ h3 {
   margin-right: 20px;
 }
 /* line 16, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_contact.scss */
-.contact-info__icon i, .contact-info__icon span {
+.contact-info__icon i,
+.contact-info__icon span {
   color: #8f9195;
   font-size: 27px;
 }
@@ -2928,7 +2976,11 @@ h3 {
   font-size: 24px;
 }
 /* line 85, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-b, sup, sub, u, del {
+b,
+sup,
+sub,
+u,
+del {
   color: #ff5e13;
 }
 /* line 93, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
@@ -2956,11 +3008,21 @@ h6 {
   font-size: 14px;
 }
 /* line 117, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.2em;
 }
 /* line 127, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
   color: #828bb2;
 }
 /* line 137, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
@@ -2987,7 +3049,7 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
   line-height: 40px;
   padding: 0 30px;
-  font-size: .8em;
+  font-size: 0.8em;
   text-align: center;
   text-decoration: none;
   font-weight: 500;
@@ -3253,7 +3315,10 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 /* line 377, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.progress-table .table-head .serial, .progress-table .table-head .country, .progress-table .table-head .visit, .progress-table .table-head .percentage {
+.progress-table .table-head .serial,
+.progress-table .table-head .country,
+.progress-table .table-head .visit,
+.progress-table .table-head .percentage {
   color: #415094;
   line-height: 40px;
   text-transform: uppercase;
@@ -3266,7 +3331,10 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 /* line 391, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.progress-table .table-row .serial, .progress-table .table-row .country, .progress-table .table-row .visit, .progress-table .table-row .percentage {
+.progress-table .table-row .serial,
+.progress-table .table-row .country,
+.progress-table .table-row .visit,
+.progress-table .table-row .percentage {
   display: flex;
   align-items: center;
 }
@@ -3707,7 +3775,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 798, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 /* line 806, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
@@ -3745,7 +3814,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 835, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../img/elements/success-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 /* line 843, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
@@ -3788,7 +3858,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 876, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 /* line 884, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
@@ -3826,7 +3897,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 913, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 /* line 921, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
@@ -3864,7 +3936,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 950, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/success-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 /* line 958, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
@@ -3907,7 +3980,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 991, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 /* line 999, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
@@ -4053,8 +4127,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 /* line 14, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
-.blog_area a:hover, .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #48B6FB 0%, #48B6FB 99%);
+.blog_area a:hover,
+.blog_area a :hover {
+  background: -webkit-linear-gradient(131deg, #48b6fb 0%, #48b6fb 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -4077,7 +4152,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 36, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .single-blog .thumb:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -4119,7 +4194,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 84, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .single-blog .tag:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 1px;
   height: 10px;
@@ -4170,7 +4245,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 135, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .single-blog:hover .thumb:after {
-  opacity: .7;
+  opacity: 0.7;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -4497,7 +4572,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 544, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .blog_details a:hover {
-  color: #42B3FA;
+  color: #42b3fa;
 }
 /* line 549, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .blog_details h2 {
@@ -4522,7 +4597,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #999999;
 }
 /* line 571, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
-.blog-info-link li i, .blog-info-link li span {
+.blog-info-link li i,
+.blog-info-link li span {
   font-size: 13px;
   margin-right: 5px;
 }
@@ -4554,7 +4630,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #48B6FB;
+  background-color: #48b6fb;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -4643,7 +4719,8 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 0;
 }
 /* line 701, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
-.blog_right_sidebar .search_widget .input-group button i, .blog_right_sidebar .search_widget .input-group button span {
+.blog_right_sidebar .search_widget .input-group button i,
+.blog_right_sidebar .search_widget .input-group button span {
   font-size: 14px;
   color: #999999;
 }
@@ -4675,7 +4752,8 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 0;
 }
 /* line 742, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
-.blog_right_sidebar .newsletter_widget .input-group button i, .blog_right_sidebar .newsletter_widget .input-group button span {
+.blog_right_sidebar .newsletter_widget .input-group button i,
+.blog_right_sidebar .newsletter_widget .input-group button span {
   font-size: 14px;
   color: #999999;
 }
@@ -4748,7 +4826,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 842, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #42B3FA;
+  background: #42b3fa;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -4797,7 +4875,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 10px;
 }
 /* line 1005, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
-.blog-pagination .page-link i, .blog-pagination .page-link span {
+.blog-pagination .page-link i,
+.blog-pagination .page-link span {
   font-size: 13px;
 }
 /* line 1017, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
@@ -4896,7 +4975,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
 }
 /* line 1137, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
-.single-post-area .navigation-top .like-info i, .single-post-area .navigation-top .like-info span {
+.single-post-area .navigation-top .like-info i,
+.single-post-area .navigation-top .like-info span {
   font-size: 16px;
   margin-right: 5px;
 }
@@ -4905,7 +4985,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
 }
 /* line 1147, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
-.single-post-area .navigation-top .comment-count i, .single-post-area .navigation-top .comment-count span {
+.single-post-area .navigation-top .comment-count i,
+.single-post-area .navigation-top .comment-count span {
   font-size: 16px;
   margin-right: 5px;
 }
@@ -4919,7 +5000,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 /* line 1164, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
-.single-post-area .navigation-top .social-icons li i, .single-post-area .navigation-top .social-icons li span {
+.single-post-area .navigation-top .social-icons li i,
+.single-post-area .navigation-top .social-icons li span {
   font-size: 14px;
   color: #999999;
 }
@@ -4956,7 +5038,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 1208, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .single-post-area .blog-author a:hover {
-  color: #42B3FA;
+  color: #42b3fa;
 }
 /* line 1213, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .single-post-area .blog-author p {
@@ -5009,7 +5091,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 1264, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-left:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 @media (max-width: 767px) {
   /* line 1240, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
@@ -5044,7 +5126,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 1299, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-right:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 @media (max-width: 991px) {
   /* line 1307, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
@@ -5322,7 +5404,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 72, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body a {
-  color: #42B3FA;
+  color: #42b3fa;
   text-transform: uppercase;
   -webkit-transition: 0.8s;
   transition: 0.8s;
@@ -5346,7 +5428,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 10px;
   top: 5px;
   left: 0;
-  background-color: #42B3FA;
+  background-color: #42b3fa;
   border-radius: 50%;
 }
 /* line 97, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
